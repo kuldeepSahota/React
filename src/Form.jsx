@@ -28,6 +28,8 @@ const Form = () =>{
                  <input type="text" placeholder="Enter Your Name"  onChange={InputEvent} value={text}/>
                  <br/>
                  <input type="text" placeholder="Enter Your Last"  onChange={InputEventTWo} value={lastName}/>
+                 <br/>
+                 <input type="text" placeholder="Enter Your Last"  onChange={InputEventTWo} value={lastName}/>
                  <button type= "submit" onClick={onSubmit}>SUBMIT</button>
               </form>
         </div>
